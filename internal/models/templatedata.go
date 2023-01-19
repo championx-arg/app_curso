@@ -7,7 +7,7 @@ type TemplateData struct {
 	IntMap map[string]int
 	FloatMap map[string]float32
 	Data map[string]interface{}
-	CSRFTocken string
+	CSRFToken string
 	Flash string //success message por ejemplo
 	Warning string //warning message por ejemplo
 	Error string //error message por ejemplo

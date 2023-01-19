@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/championx-arg/app_curso/pkg/config"
-	"github.com/championx-arg/app_curso/pkg/handlers"
-	"github.com/championx-arg/app_curso/pkg/render"
+	"github.com/championx-arg/app_curso/internal/config"
+	"github.com/championx-arg/app_curso/internal/handlers"
+	"github.com/championx-arg/app_curso/internal/render"
 
 	"github.com/alexedwards/scs/v2"
 )
